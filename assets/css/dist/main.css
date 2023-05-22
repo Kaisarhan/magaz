@@ -1,0 +1,40 @@
+a {
+  text-decoration: none;
+}
+
+.navMenu {
+  background: red;
+  background: linear-gradient(34deg, red 0%, #790909 64%, #00d4ff 100%);
+  /*  border: 1px black solid; */
+}
+.navMenu ul {
+  padding: 0px;
+  margin: 1rem;
+}
+.navMenu ul li {
+  list-style-type: none;
+}
+.navMenu ul li a {
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.slide .slick-dots li button:before {
+  font-size: 2rem;
+  line-height: 2rem;
+}
+.slide .carousel-item .mainSlider {
+  max-height: 45rem;
+}
+
+footer {
+  background-color: #EEEEF1;
+}
+footer .description-footer {
+  background: red;
+  background: linear-gradient(34deg, red 0%, #790909 64%, #00d4ff 100%);
+}
+footer .description-footer p {
+  color: white;
+}
